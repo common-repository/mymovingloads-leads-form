@@ -1,0 +1,114 @@
+.toplevel_page_mml_leadform_dashboard h1, .toplevel_page_mml_leadform_dashboard h2, .toplevel_page_mml_leadform_dashboard h3, .toplevel_page_mml_leadform_dashboard h4 {
+	color: #667;
+}
+.toplevel_page_mml_leadform_dashboard h1 {
+	font-size: 2em;
+	font-weight: 500;
+	line-height: 1.2em;
+}
+.toplevel_page_mml_leadform_dashboard h2 {
+	font-size: 1.75em;
+	font-weight: 500;
+	line-height: 1.2em;
+}
+.toplevel_page_mml_leadform_dashboard h3 {
+	font-size: 1.5em;
+	font-weight: 400;
+	line-height: 1.2em;
+}
+.toplevel_page_mml_leadform_dashboard h4 {
+	font-size: 1.25em;
+	font-weight: 400;
+	line-height: 1.2em;
+}
+.toplevel_page_mml_leadform_dashboard p, .toplevel_page_mml_leadform_dashboard li {
+	font-size: 14px;
+}
+/*Admin tabs styles*/
+#left-content .nav-tab-wrapper .nav-tab {
+    font-size: 1em;
+    padding: 10px 20px;
+    color: #667;
+}
+#left-content .nav-tab-wrapper .nav-tab-active {
+    background: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+/*Left and right content styles*/
+#left-content, #right-content {
+	float: left;
+	width: 100%;
+}
+#left-content {
+	max-width:70%;
+}
+#right-content {
+	max-width:30%;
+}
+.warning.settings-error {
+	border-left-color: #FFC107;
+}
+/* NOTICED TOP */
+.mml_keynotice {
+	padding: 15px;
+	margin-top: 20px;
+}
+.mml_keynotice.mml_keynotice-demokey {
+	background: #ffeeda;
+	border: 1px solid #ffb000;
+}
+.mml_keynotice.mml_keynotice-noapi {
+	background: #ffdada;
+	border: 1px solid red;
+}
+.mml_settings_block {
+	padding: 5px 15px;
+	background: #fff;
+	margin: 5px 0;
+	border: 1px solid #ccc;
+}
+.mml_apisettings, .mml_howto {
+	border-top: none;
+    margin-top: 0px;
+}
+
+.mml_submit-wrap p.submit { margin-top: 0; }
+
+.mml_icon { padding: 4px 0px; }
+.mml_icon_valid { color: #4caf50; }
+.mml_icon_invalid { color: #f44336; }
+.mml_icon_demokey { color: #ff9800; }
+
+table.mml_table input[type="text"], table.mml_table input[type="email"], table.mml_table textarea {
+	width: 100%;
+	max-width: 320px;
+}
+table.mml_table td {
+	max-width: 320px;
+}
+table.mml_table textarea {
+	width: 100%;
+	max-width: 320px;
+	min-height: 100px;
+}
+
+#bg_cp_options {
+	display: block;
+	margin-top: 10px;
+}
+#bg_cp_options.hide_div { display: none; }
+
+@media (max-width: 860px) and (min-width: 320px) {
+	#left-content, #right-content {
+		float: none;
+	}
+	#left-content {
+		width:100%;
+		max-width: 100%;
+	}
+	#right-content {
+		width:100%;
+		max-width: 100%;
+	}
+}

@@ -1,0 +1,710 @@
+/*
+*	General Style for the entire plugin.
+* 	--------------------------------------
+*	To avoid conflicts with the themes, and be sure it will look good,
+*	make sure you include the mml_leadform_wrapper class that wrappes every single form.
+*	Also all classes have prefix of MML for the same reason.
+*
+*	Version: 1.2.1
+*
+*	NB! Font-size and font-family are with !important
+*/
+
+.mml_leadform_wrapper * { box-sizing: border-box; }
+.mml_leadform_wrapper .mml_form_body {position: relative;}
+
+input.mml_leadform_3198637 { display: none !important; } /* Honeypot is love, honeypot is life */
+
+.mml_error.clearfix {
+	text-align: center;
+	color: #ff0000;
+	padding: 0 10px 10px 10px;
+}
+.clearfix:after {
+	clear: both;
+	display: block;
+	content: '';
+}
+form.mml_form {
+	min-height: 100px;
+	transition: height 0.2s;
+}
+.mml_leadform_wrapper {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+.mml_leadform_wrapper input,
+.mml_leadform_wrapper select,
+.mml_leadform_wrapper textarea {
+	font-family: 'Open Sans', sans-serif !important;
+	font-size: 14px !important;
+}
+.mml_leadform_wrapper input[type=submit] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+.mml_leadform_wrapper .clearfix:before,
+.mml_leadform_wrapper .clearfix:after {
+	content: "";
+	display: table;
+}
+
+.mml_leadform_wrapper .mml_col-xs-6,
+.mml_leadform_wrapper .mml_col-xs-12 {
+	position: relative;
+}
+.mml_leadform_wrapper .mml_col-xs-6 { width: 49.5%; }
+.mml_leadform_wrapper .mml_col-xs-12 { width: 100%; }
+
+.mml_leadform_wrapper .mml_col-xs-12 input.mml_col-xs-12,
+.mml_leadform_wrapper .mml_col-xs-12 select.mml_col-xs-12,
+.mml_leadform_wrapper .mml_col-xs-12 textarea.mml_col-xs-12 {
+	max-width: 100%; }
+
+.mml_col-xs-6:nth-of-type(odd) { float: left; }
+.mml_col-xs-6:nth-of-type(even) { float: right; }
+
+.mml_leadform_wrapper .mml_days_left_wrap {
+	color: #337ab7; transition: all 0.5s ease; -webkit-transition: all 0.5s ease;
+	position: absolute; opacity: 0; text-align: right; line-height: 1;
+	width: 70px; font-size: 13px; pointer-events: none; right: 10px; top: 6px;
+}
+
+.mml_leadform_wrapper .mml_arrow-down {
+	width: 0; height: 0; border-left: 6px solid transparent; border-right: 6px solid transparent;
+	border-top: 6px solid #555; position: absolute; right: 10px; top: 16px; z-index: 2; pointer-events: none;
+}
+
+.mml_leadform_wrapper select { line-height: unset; }
+
+.mml_col-xs-12.mml_field_wrap { height: 45px; }
+
+.mml_leadform_wrapper .mml_formtitle { font-size: 1.5em; margin: 10px 0; text-align: center; color: #555; }
+
+.mml_leadform_wrapper .ui-datepicker-calendar { z-index: 5; }
+
+#ui-datepicker-div { z-index: 10!important; }
+
+/* FLOAT LABELS */
+.mml_leadform_wrapper .float-label .mml_control {
+	float: left;
+	position: relative;
+}
+
+.mml_leadform_wrapper .float-label input::placeholder { color: #555; }
+
+.mml_leadform_wrapper .float-label input,
+.mml_leadform_wrapper .float-label text,
+.mml_leadform_wrapper .float-label select,
+.mml_leadform_wrapper .float-label textarea {
+	background-image: url(../img/mml_sprite.png); background-repeat: no-repeat; background-position: -6px 3px; box-shadow: 0 0 3px #d6d6d6;
+}
+
+.mml_leadform_wrapper .float-label input:not([type="checkbox"]),
+.mml_leadform_wrapper .float-label text,
+.mml_leadform_wrapper .float-label select,
+.mml_leadform_wrapper .float-label textarea {
+	background-color: #fff!important; color: #555; display: block; outline: 0; resize: none; padding: 4px 8px 4px 35px; padding-left: 35px !important;
+	box-sizing: border-box; height: 40px; -webkit-appearance: none; -moz-appearance: none; appearance: none;
+	border-width: 1px; border-style: solid; border-color: #d6d6d6; border-radius: 3px; margin: 0 auto 5px; transition: border, box-shadow ease-in 0.3s;
+}
+
+.mml_leadform_wrapper .float-label input::placeholder {
+    color: #555;
+    font-weight:400!important;
+    opacity: 1;
+}
+.mml_leadform_wrapper .float-label input:-ms-input-placeholder,
+.mml_leadform_wrapper .float-label input::-ms-input-placeholder {
+    color: #555;
+    font-weight:400!important;
+}
+.mml_leadform_wrapper .float-label select::-ms-expand {
+    display: none;
+}
+.mml_leadform_wrapper .float-label input:not(:placeholder-shown),
+.mml_leadform_wrapper .float-label select:valid,
+.mml_leadform_wrapper .float-label textarea:valid {
+	padding: 10px 5px 0px 35px; color: #000;/* background-position: -6px 3px;*/
+}
+.mml_leadform_wrapper .float-label label:not(.mml_termslabel),
+.mml_leadform_wrapper .float-label textarea + label {
+	position: absolute; top: -20px; opacity: 0; font-size: 12px; font-weight: 600;
+	color: #337ab7; left: 35px; pointer-events: none; transition: opacity, top 0.7s ease;
+}
+.mml_leadform_wrapper .float-label input:not(:placeholder-shown) ~ label,
+.mml_leadform_wrapper .float-label select:valid ~ label,
+.mml_leadform_wrapper .float-label textarea:valid ~ label {
+	opacity: 1; top: 0; left: 35px; transition: opacity, top 0.7s ease; width: 100%; line-height: 1.75em; text-align: left;
+}
+.mml_leadform_wrapper .float-label input:hover,
+.mml_leadform_wrapper .float-label input:focus,
+.mml_leadform_wrapper .float-label select:hover,
+.mml_leadform_wrapper .float-label select:focus {
+	box-shadow: 0 0 5px 1px #337ab7; border: 1px solid #337ab7;
+}
+
+.mml_leadform_wrapper input[type="checkbox"].mml_termstoagree {
+	-webkit-appearance: checkbox;
+	margin: 0;
+	vertical-align: middle;
+	background-image: none;
+	box-shadow: none;
+}
+.mml_leadform_wrapper input[type="checkbox"].mml_termstoagree:checked::before {
+	content: '';
+}
+
+
+/* SUBMIT BUTTONS */
+.mml_leadform_wrapper input.mml_btn.mml_submit-btn {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #7b7b7b;
+	border-radius: 3px;
+	background-color: #f27208;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.12);
+	color: #fff;
+	text-shadow: 1px 0 1px #515151;
+	padding: 5px;
+	font-weight: 600;
+	font-size: 20px !important;
+	line-height: inherit;
+	height: inherit;
+}
+.mml_leadform_wrapper input.mml_btn.mml_submit-btn.disabled,
+.mml_leadform_wrapper input.mml_btn.mml_submit-btn.disabled:hover {
+	background-color: #c2c2c2;
+	border-color: #a5a5a5;
+	cursor: not-allowed;
+}
+.mml_leadform_wrapper input.mml_btn.mml_submit-btn.mml_defaultsubmit:hover {
+	background-color: #DD6700!important;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.12);
+}
+.mml_leadform_wrapper input.mml_btn.mml_submit-btn.mml_customsubmit:hover {
+	opacity: 0.9;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.12);
+}
+
+.mml_leadform_wrapper span.mml_from-city {
+	color: #337ab7;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	position: absolute;
+	text-align: right;
+	line-height: 1;
+	width: 184px;
+	font-size: 13px;
+	pointer-events: none;
+	right: 10px;
+	top: 6px;
+}
+
+.mml_leadform_wrapper span.mml_distance {
+	color: #337ab7;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	position: absolute;
+	text-align: right;
+	line-height: 1;
+	width: 184px;
+	font-size: 13px;
+	pointer-events: none;
+	right: 10px;
+	top: 6px;
+}
+
+.mml_leadform_success {
+	text-align: center;
+	margin: 40px;
+	font-size: 20px;
+}
+
+/* GROUPED UP FIELDS */
+.mml_group {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #d6d6d6;
+	border-radius: 3px;
+	min-height: 85px;
+	margin-bottom: 5px;
+	width: 100%;
+	box-shadow: 0 0 3px #d6d6d6;
+}
+.mml_group .mml_field_wrap select,
+.mml_group .mml_field_wrap input {
+	margin: 0;
+	border: 1px solid #fff;
+	width: 100%;
+	max-width: 100%;
+}
+.mml_group .mml_field_wrap:last-of-type {
+	border-top: 1px dashed #ccc;
+}
+.mml_group .mml_field_wrap {
+	height: 40px;
+}
+.mml_group .mml_field_wrap:last-child > input,
+.mml_group .mml_field_Wrap:last-child > select {
+	height: 42px;
+	border-width: 0;
+}
+
+.mml_group .mml_col-xs-6 { width: 50%; }
+
+/* ICONS ON INPUTS */
+.mml_col-xs-12.mml_arrow-to {
+	background-image: url(../img/mml_sprite.png);
+	background-repeat: no-repeat;
+	background-position: -6px -415px;
+}
+.mml_col-xs-12.mml_arrow-to.mml_middle-arrow { background-position: center -415px; }
+
+.mml_col-xs-12.mml_movingdate_wrap input,
+.mml_col-xs-12.mml_movingdate_wrap input:not(:placeholder-shown) { background-position: -6px -131px; }
+
+.mml_col-xs-12.mml_deliverystate_wrap select,
+.mml_col-xs-12.mml_deliverystate_wrap select:valid { background-position: -6px -61px; }
+
+.mml_col-xs-12.mml_deliverycity_wrap input,
+.mml_col-xs-12.mml_deliverycity_wrap input:not(:placeholder-shown) { background-position: -6px -61px; }
+
+.mml_col-xs-12.mml_size_wrap select, 
+.mml_col-xs-12.mml_size_wrap select:valid { background-position: -6px -491px; }
+
+.mml_col-xs-12.mml_name_wrap input, 
+.mml_col-xs-12.mml_name_wrap input:valid { background-position: -6px -215px; }
+
+.mml_col-xs-12.mml_phone_wrap input, 
+.mml_col-xs-12.mml_phone_wrap input:valid { background-position: -6px -283px; }
+
+.mml_col-xs-12.mml_email_wrap input, 
+.mml_col-xs-12.mml_email_wrap input:not(valid),
+.mml_col-xs-12.mml_email_wrap input:valid { background-position: -6px -350px; }
+
+.mml_submit_wrap {
+	margin-top: 8px;
+}
+.mml_col-xs-12.mml_submit_wrap input.mml_submit-btn {
+	background-image: none;
+	cursor: pointer;
+	text-transform: none!important;
+}
+
+.mml_leadform_wrapper select[name="mml_destination_country"] {
+	background-position: -6px -60px !important;
+}
+
+.mml_leadform_wrapper .mml_termstoagree-wrap { text-align: right; padding-right: 6px; line-height: 20px; float: right;}
+
+.mml_leadform_wrapper .mml_termslabel {font-weight: 400!important;}
+
+.mml_leadform_success { display: none; }
+
+.mml_leadform_phonecall_success { display: none; }
+
+/* WIDGET AREA STYLE */
+.widget_mml_leadform_widget .mml_col-xs-6.mml_main-col {
+	width: 100%;
+}
+
+.widget_mml_leadform_widget.widget .float-label input[type="date"],
+.widget_mml_leadform_widget.widget .float-label input[type="text"],
+.widget_mml_leadform_widget.widget .float-label input[type="email"],
+.widget_mml_leadform_widget.widget .float-label input[type="url"],
+.widget_mml_leadform_widget.widget .float-label input[type="tel"],
+.widget_mml_leadform_widget.widget .float-label input[type="number"],
+.widget_mml_leadform_widget.widget .float-label textarea,
+.widget_mml_leadform_widget.widget .float-label select,
+.widget_mml_leadform_widget.widget .float-label textarea {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	padding-left: 35px;
+}
+
+.widget_mml_leadform_widget.widget .float-label input[type="text"]:placeholder-shown ~ label,
+.widget_mml_leadform_widget.widget .float-label input[type="email"]:placeholder-shown ~ label,
+.widget_mml_leadform_widget.widget .float-label input[type="tel"]:placeholder-shown ~ label {
+	padding: 4px 8px 4px 35px !important;
+}
+
+.widget_mml_leadform_widget.widget .float-label input[type="text"]:not(:placeholder-shown) ~ label,
+.widget_mml_leadform_widget.widget .float-label input[type="email"]:not(:placeholder-shown) ~ label,
+.widget_mml_leadform_widget.widget .float-label input[type="tel"]:not(:placeholder-shown) ~ label,
+.widget_mml_leadform_widget.widget .float-label select:valid ~ label,
+.widget_mml_leadform_widget.widget .float-label textarea:valid ~ label {
+	opacity: 1; top: 0; left: 35px; transition: opacity, top 0.7s ease; width: 100%; line-height: 1.75em; text-align: left;
+}
+.widget_mml_leadform_widget.widget .mml_formtitle { display: none; }
+
+@media (max-width: 767px) and (min-width: 320px) {
+	
+	.mml_leadform_wrapper .mml_col-xs-6.mml_main-col,
+	.mml_leadform_wrapper .mml_col-xs-12 {
+		width: 100%;
+		position: relative;
+	}
+	.mml_leadform_wrapper .mml_col-xs-6 { margin-bottom: 5px; }
+	.mml_row > .mml_control { margin-bottom: 8px; }
+	.mml_form_body > .mml_main-col { margin-bottom: 8px; }
+	.mml_form_body > .mml_main-col:last-child { margin-bottom: 0; }
+	.mml_form_body > .mml_main-col:last-child > .mml_row > .mml_control { margin-bottom: 0; }
+	.mml_group .mml_col-xs-6 { margin-bottom: 0; }
+}
+
+@media (max-width: 563px) and (min-width: 120px) {
+	.mml_col-xs-12.mml_termstoagree > div.mml_col-xs-6 { padding: 5px 0; }
+	.mml_leadform_wrapper .mml_switch_int-wrap.mml_col-xs-6 { width: 100%; }
+	.mml_leadform_wrapper .mml_termstoagree-wrap.mml_col-xs-6 { width: 100%; text-align: left; }
+	.mml_group .mml_col-xs-6 { margin-bottom: 0; }
+}
+
+
+.mml_group .mml_deliverycity_wrap input { background: none; }
+.mml_group .mml_origincity_wrap input { background: none; }
+
+/* EXTRA CLASSES */
+.mml_error_field { border: 1px solid #ff0000; }
+
+.demo_warning {
+	background: #ffdbdb;
+	border: 1px solid red;
+	font-size: 16px;
+	padding: 10px;
+}
+.mml_admin_block {
+    background: #f9f999;
+    padding: 10px;
+    border: 1px solid #c5c57e;
+    position: relative;
+}
+.mml_admin_block a {
+    color: #666;
+}
+.mml_admin_block .mml_close { position: absolute; right: 10px; top: 8px; cursor: pointer; }
+.mml_admin_block.mml_hide { display: none; }
+
+.mml_formbackground { padding: 10px; }
+
+
+/* International */
+.mml_field_wrap.mml_int_us,
+.mml_field_wrap.mml_int_ca,
+.mml_field_wrap.mml_int_au {
+	border-left: 1px dashed #ccc;
+}
+
+.mml_int_us select[name="mml_origin_state_us"],
+.mml_int_ca select[name="mml_origin_state_ca"],
+.mml_int_au select[name="mml_origin_state_au"],
+.mml_int_us select[name="mml_delivery_state_us"],
+.mml_int_ca select[name="mml_delivery_state_ca"],
+.mml_int_au select[name="mml_delivery_state_au"] {
+	padding-left: 5px !important;
+	background: none !important;
+	background-color: #fff!important;
+}
+.mml_int_us label[for="mml_origin_state_us"],
+.mml_int_ca label[for="mml_origin_state_ca"],
+.mml_int_au label[for="mml_origin_state_au"],
+.mml_int_us label[for="mml_delivery_state_us"],
+.mml_int_ca label[for="mml_delivery_state_ca"],
+.mml_int_au label[for="mml_delivery_state_au"] { 
+	left: 5px !important;
+}
+
+.ui-widget-header {
+	border: 1px solid #3579b7;
+	background: #3e79b7;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.mml_leadform_wrapper .dropdown-menu {
+	position: absolute;
+	left: 0 !important;
+	right: unset !important;
+	z-index: 1000;
+	display: none;
+	min-width: 160px;
+	padding: 5px!important;
+	margin: 2px 0 0;
+	font-size: 16px;
+	list-style: none!important;
+	background-color: #fff;
+	background-clip: padding-box;
+	color: #000;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0, 0, 0, .15);
+	border-radius: 4px;
+	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+.mml_leadform_wrapper .dropdown-menu li a {
+	color: #000;
+	display: block;
+	padding: 5px;
+	box-shadow: none;
+}
+.mml_leadform_wrapper .dropdown-menu li a:hover,
+.mml_leadform_wrapper .dropdown-menu li.active a {
+	color: #fff;
+	background: #337ab7;
+	text-decoration: none !important;
+}
+
+.mml_leadform_wrapper .mml_infoicon {
+	position: relative;
+	display: inline-block;
+	background-image: url(../img/info.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: 100%;
+	cursor: pointer;
+	height: 16px;
+	width: 16px;
+	top: 3px;
+	left: 5px;
+}
+.mml_leadform_wrapper span.mml_infoicon-i {
+	position: absolute;
+	font-weight: bold;
+	top: -8px;
+	left: 6px;
+}
+.mml_leadform_wrapper .mml_termstoagree { line-height: 20px; }
+
+.mml_leadform_wrapper .mml_privacy-secure { text-align: right; line-height: 20px; margin-top: 6px;}
+.mml_secureicon {
+	display: inline;
+}
+.mml_popup.mml_popup_termsofservice {
+	text-align: left;
+	display: block;
+	width: 100%;
+	max-width: 400px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 30px;
+	right: 0;
+	background: #fff;
+	line-height: initial;
+	font-size: 13px !important;
+	z-index: 100;
+	box-shadow: 4px 4px 8px rgba(113, 113, 113, 0.56);
+}
+.mml_leadform_wrapper .mml_switch_int-wrap { cursor: pointer; background-image: url(../img/mml_sprite.png); background-repeat: no-repeat; background-position: -6px -630px; line-height: 20px; min-height: 24px;}
+.mml_popup_header {
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+	background: rgb(247, 247, 247);
+}
+a.mml_switch {
+	color: #2ea3f2!important;
+    padding-left: 33px;
+	text-decoration: underline!important;
+	box-shadow: none!important;
+}
+.mml_popup_body {
+	padding: 10px;
+}
+.mml_linkservices a {
+    box-shadow: none!important;
+    text-decoration: underline!important;
+}
+
+.mml_closeX { position: absolute; top: 0px; right: 10px; cursor: pointer; font-size: 24px; }
+
+/* Animations */
+.mml_shine {
+	animation-name: ShineAnimation;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+	animation-timing-function: cubic-bezier(.1,.1,.1,5);
+
+	-webkit-animation-name: ShineAnimation;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: cubic-bezier(.1,.1,.1,5);
+
+	-moz-animation-name: ShineAnimation;
+	-moz-animation-duration: 7s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: cubic-bezier(.1,.1,.1,5);
+
+	-o-animation-name: ShineAnimation;
+	-o-animation-duration: 7s;
+	-o-animation-iteration-count: infinite;
+	-o-animation-timing-function: cubic-bezier(.1,.1,.1,5);
+}
+
+@keyframes ShineAnimation{
+	from {
+		background-repeat:no-repeat;
+		background-image:-webkit-linear-gradient(
+			top left,
+			rgba(255, 255, 255, 0.0) 0%,
+			rgba(255, 255, 255, 0.0) 45%,
+			rgba(255, 255, 255, 0.1) 48%,
+			rgba(255, 255, 255, 0.3) 50%,
+			rgba(255, 255, 255, 0.1) 52%,
+			rgba(255, 255, 255, 0.0) 57%,
+			rgba(255, 255, 255, 0.0) 100%
+		);
+		background-position:-250px -250px;
+		background-size: 600px 600px
+	}
+	to {
+		background-repeat:no-repeat;
+		background-position:250px 250px;
+	}
+}
+@-webkit-keyframes ShineAnimation{
+	from {
+		background-repeat:no-repeat;
+		background-image:-webkit-linear-gradient(
+			top left,
+			rgba(255, 255, 255, 0.0) 0%,
+			rgba(255, 255, 255, 0.0) 45%,
+			rgba(255, 255, 255, 0.1) 48%,
+			rgba(255, 255, 255, 0.3) 50%,
+			rgba(255, 255, 255, 0.1) 52%,
+			rgba(255, 255, 255, 0.0) 57%,
+			rgba(255, 255, 255, 0.0) 100%
+		);
+		background-position:-250px -250px;
+		background-size: 600px 600px
+	}
+	to {
+		background-repeat:no-repeat;
+		background-position:250px 250px;
+	}
+}
+
+
+.mml_leadform_success_phone .mml_leadform_success_phone_wait {
+	font-size: 2em;
+	color: #1D7D5A;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.mml_leadform_success_phone .mml_leadform_success_phone_phone_num {
+	font-size: 2em;
+	margin: 0 !important;
+}
+.mml_leadform_success_phone p, .mml_leadform_success_phone ul, .mml_leadform_success_phone .mml_leadform_success_phone_phone_num {
+	padding: 10px;
+	margin: 0 !important;
+}
+
+.mml_leadform_success_phone {
+	width: 100%;
+	max-width: 600px;
+	margin: auto;
+	text-align: center;
+	padding: 20px 0;
+}
+
+
+.mml_leadform_success_phone ul {
+	list-style: none;
+}
+
+.mml_leadform_success_phone ul li {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: #000;
+	display: inline-block;
+	margin: 0 2px;
+	opacity: .2;
+}
+
+.mml_leadform_success_phone ul li:nth-of-type(1) {
+	-webkit-animation: dots .4s ease 0s infinite alternate;
+	animation: dots .4s ease 0s infinite alternate;
+}
+
+.mml_leadform_success_phone ul li:nth-of-type(2) {
+	-webkit-animation: dots .4s ease .2s infinite alternate;
+	animation: dots .4s ease .2s infinite alternate;
+}
+
+.mml_leadform_success_phone ul li:nth-of-type(3) {
+	-webkit-animation: dots .4s ease .4s infinite alternate;
+	animation: dots .4s ease .4s infinite alternate;
+}
+
+@-webkit-keyframes dots {
+	from {
+		opacity: 1;
+		-webkit-transform: scale(1.2);
+		transform: scale(1.2);
+	}
+	to {
+		opacity: .2;
+		-webkit-transform: scale(0.75);
+		transform: scale(0.75);
+	}
+}
+
+@keyframes dots {
+	from {
+		opacity: 1;
+		-webkit-transform: scale(1.2);
+		transform: scale(1.2);
+	}
+	to {
+		opacity: .2;
+		-webkit-transform: scale(0.75);
+		transform: scale(0.75);
+	}
+}
+
+.mml_leadform_success_phone .mml_leadform_success_phone_icon {
+	width: 50px;
+	height: 50px;
+	padding: 0;
+	margin: auto;
+	-webkit-animation: phone 1s ease-in-out forwards infinite;
+	animation: phone 1s ease-in-out forwards infinite;
+}
+
+@-webkit-keyframes phone {
+	from {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+	50% {
+		-webkit-transform: scale(1.3);
+		transform: scale(1.3);
+	}
+	to {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+}
+
+@keyframes phone {
+	from {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+	50% {
+		-webkit-transform: scale(1.3);
+		transform: scale(1.3);
+	}
+	to {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+}

@@ -1,0 +1,630 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-10-24 18:19+0300\n"
+"PO-Revision-Date: 2018-10-24 18:20+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/admin.php:10
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: includes/options/leadform_settings.php:33
+msgid "My Moving Loads - Moving Leads Form Settings"
+msgstr "Umzugsanfragen-Form - Allgemeine Einstellungen"
+
+#: includes/options/leadform_settings.php:34
+msgid "Moving Leads"
+msgstr "Umzugs-Leads"
+
+#: includes/options/leadform_settings.php:105
+msgid ""
+"The MoveAdvisor API Key you have entered is invalid. Please contact "
+"MoveAdvisor.com to get a working API Key."
+msgstr ""
+"Der von Ihnen eingegebene MoveAdvisor-API-Key ist ungültig. Bitte "
+"kontaktieren Sie MoveAdvisor.com um einen funktionierenden API -Schlüssel "
+"zu erhalten."
+
+#: includes/options/leadform_settings.php:127
+msgid ""
+"You are using a Demo Key. Please contact MoveAdvisor.com to get a working "
+"API Key."
+msgstr ""
+"Sie verwenden einen Demo-Key. Bitte kontaktieren Sie MoveAdvisor.com um "
+"einen funktionierenden API-Key zu erhalten."
+
+#: includes/options/leadform_settings.php:141
+#, php-format
+msgid ""
+"The MoveAdvisor API Key is either missing or invalid. Please <a href=\"%s"
+"\" target=\"_blank\">contact MoveAdvisor.com</a> to get a working API Key."
+msgstr ""
+"Der MoveAdvisor-API-Keyl fehlt oder ist ungültig. Bitte <a href=\"%s\" "
+"target=\"_blank\">kontaktieren Sie MoveAdvisor.com</a> , um einen "
+"funktionierenden API Key zu erhalten."
+
+#: includes/options/leadform_settings.php:210
+#, php-format
+msgid ""
+"You are using a Demo Key for MoveAdvisor Form. To have a working form, "
+"<strong>'please enter a valid API key\\ in the</strong> <a href=\"%s\" "
+"target=\"_blank\">Plugin Settings</a> page."
+msgstr ""
+"Sie verwenden einen Demo-Key für die MoveAdvisor-Form. Um eine "
+"funktionierende Form zu erhalten, <strong>geben Sie bitte einen gültigen API-"
+"Key auf der Seite</strong> <a href=\"%s\" target=\"_blank\">Plugin-"
+"Einstellungen</a> ein."
+
+#: includes/options/leadform_settings.php:221
+#, php-format
+msgid ""
+"To use the MoveAdvisor Form, <strong>please enter a valid API key</strong> "
+"in the <a href=\"%s\" target=\"_blank\">Plugin Settings</a> page."
+msgstr ""
+"Um die MoveAdvisor-Form zu verwenden, <strong>geben Sie bitte einen "
+"gültigen API-Key</strong> auf der Seite <a href=\"%s\" target=\"_blank"
+"\">Plugin-Einstellungen</a> ein."
+
+#: includes/options/leadform_settings.php:261
+#, php-format
+msgid ""
+"To use the MoveAdvisor Form, <strong>please enter a valid API key</"
+"strong>. To get one, please <a href=\"%s\" target=\"_blank\">contact "
+"MoveAdvisor</a>."
+msgstr ""
+"Um die MoveAdvisor-Form zu verwenden, <strong>geben Sie bitte einen "
+"gültigen API-Key</strong>. Um eine Form zu erhalten, <a href=\"%s\" target="
+"\"_blank\">kontaktieren Sie bitte MoveAdvisor</a>."
+
+#: includes/options/leadform_settings.php:265
+#, php-format
+msgid ""
+"You are using a Demo Key for MoveAdvisor Form. To have a working form, "
+"<strong>please enter a valid API key</strong>. To get one, please <a href="
+"\"%s\" target=\"_blank\">contact MoveAdvisor</a>."
+msgstr ""
+"Sie verwenden einen Demo-Key für die MoveAdvisor-Form. Um eine "
+"funktionierende Form zu erhalten, <strong>geben Sie bitte einen gültigen API-"
+"Key</strong>. Um eine Form zu erhalten, <a href=\"%s\" target=\"_blank"
+"\">kontaktieren Sie bitte MoveAdvisor</a>."
+
+#: includes/options/leadform_settings.php:271
+msgid "Moving Leads Form - General Settings"
+msgstr "Umzugsanfragen-Form - Allgemeine Einstellungen"
+
+#: includes/options/leadform_settings.php:279
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: includes/options/leadform_settings.php:280
+msgid "How to use"
+msgstr "Wie verwenden"
+
+#: includes/options/leadform_settings.php:289
+msgid " API Keys"
+msgstr "API-Keys"
+
+#: includes/options/leadform_settings.php:293
+msgid "MoveAdvisor API Key"
+msgstr "MoveAdvisor API-Key"
+
+#: includes/options/leadform_settings.php:296
+msgid "You using a demo API key for testing purposes."
+msgstr "Sie verwenden einen Demo-API-Key für Testzwecke."
+
+#: includes/options/leadform_settings.php:298
+msgid "You using a valid, official API key."
+msgstr "Sie verwenden einen gültigen, offiziellen API-Key."
+
+#: includes/options/leadform_settings.php:300
+msgid "This API key is invalid."
+msgstr "Dieser API-Key ist ungültig."
+
+#: includes/options/leadform_settings.php:303
+#, php-format
+msgid ""
+"You need a MoveAdvisor API key to have the form submit leads. <a href=\"%s"
+"\" target=\"_blank\">Contact My Moving Loads</a> to get your unique API Key."
+msgstr ""
+"Sie benötigen den MoveAdvisor-API-Key, um Umzugsanfragen zu erhalten/"
+"senden. <a href=\"%s\" target=\"_blank\">Kontaktieren Sie MoveAdvisor</a>, "
+"um einen einzigartigen API-Key zu erhalten."
+
+#: includes/options/leadform_settings.php:305
+msgid ""
+"Want to test the form first without submitting leads? Enter the following: "
+"demokey "
+msgstr ""
+"Möchten Sie die Form zuerst testen, ohne Leads zu senden/erhalten? Geben Sie "
+"Folgendes ein: demokey "
+
+#: includes/options/leadform_settings.php:310
+msgid "Google API Key"
+msgstr "Google API-Key"
+
+#: includes/options/leadform_settings.php:313
+msgid "Add Google API Key"
+msgstr "Google API-Key hinzufügen"
+
+#: includes/options/leadform_settings.php:315
+#, php-format
+msgid ""
+"Google API is used to <a href=\"%s\" target=\"_blank\">unlock extra design "
+"features</a> of your form. See the <a href=\"%s\" target=\"_blank\">simple "
+"tutorial on how to get a Google API key</a>."
+msgstr ""
+"Google API wird verwendet, <a href=\"%s\" target=\"_blank\">um zusätzliche "
+"Designfunktionen</a> Ihrer Form zu entsperren. In der einfachen Anleitung "
+"erfahren Sie,<a href=\"%s\" target=\"_blank\">wie Sie einen Google API-Key "
+"erhalten</a>."
+
+#: includes/options/leadform_settings.php:320
+msgid "Track Form"
+msgstr "Form verfolgen"
+
+#: includes/options/leadform_settings.php:323
+#, php-format
+msgid ""
+"Start <a href=\"%s\" target=\"_blank\">tracking views and submissions of "
+"your forms.</a> (you need to have Google Analytics on your website)"
+msgstr ""
+"Starten Sie, <a href=\"%s\" target=\"_blank\">die Besuche und die Nutzung "
+"Ihrer Form zu verfolgen.</a> (Sie benötigen Google Analytics auf Ihrer "
+"Website)"
+
+#: includes/options/leadform_settings.php:328
+msgid "Default Policy"
+msgstr "Standardrichtlinie"
+
+#: includes/options/leadform_settings.php:331
+#, php-format
+msgid ""
+"Use the <a href=\"%s\" target=\"_blank\">default privacy policy we've "
+"designed</a> for your users, or keep unchecked if you already have one."
+msgstr ""
+"Verwenden Sie die <a href=\"%s\" target=\"_blank\">standardmäßige "
+"Datenschutzrichtlinie</a>, die wir für Ihre Nutzer entwickelt haben, oder "
+"deaktivieren Sie diese Option, wenn Sie bereits eine haben."
+
+#: includes/options/leadform_settings.php:335
+msgid " Form Design"
+msgstr "Form Design"
+
+#: includes/options/leadform_settings.php:339
+msgid "Color Scheme"
+msgstr "Farbschema"
+
+#: includes/options/leadform_settings.php:342
+msgid "Blue (Default)"
+msgstr "Blau (Standard)"
+
+#: includes/options/leadform_settings.php:343
+msgid "Green"
+msgstr "Grün"
+
+#: includes/options/leadform_settings.php:344
+msgid "Orange"
+msgstr "Orange"
+
+#: includes/options/leadform_settings.php:347
+msgid ""
+"Change the border color of all input fields, the background of the "
+"autosuggest as well as the dynamic information displayed inside some input "
+"fields (for example the notification “About x days left”)."
+msgstr ""
+"Ändern Sie die Rahmenfarbe aller Eingabefelder, den Hintergrund der "
+"Autosuggest sowie die dynamischen Informationen, die in einigen "
+"Eingabefeldern angezeigt werden (z. B. die Benachrichtigung \"Es bleiben "
+"noch x Tаge\")."
+
+#: includes/options/leadform_settings.php:352
+msgid "Language"
+msgstr "Sprache"
+
+#: includes/options/leadform_settings.php:359
+msgid ""
+"Set preferred language of the quote form (currently only for the "
+"international quote form)"
+msgstr "Lead-Form Sprache."
+
+#: includes/options/leadform_settings.php:364
+msgid "Form Title"
+msgstr "Form Titel"
+
+#: includes/options/leadform_settings.php:366
+msgid "No title by default."
+msgstr "Kein standartmäßiger Titel"
+
+#: includes/options/leadform_settings.php:368
+msgid "(Optional) Add title to your lead forms or leave blank for no title."
+msgstr ""
+"(Optional) Geben Sie zu der Lead-Form einen Titel oder lassen Sie das Feld "
+"frei."
+
+#: includes/options/leadform_settings.php:373
+msgid "Title Aligment"
+msgstr "Textausrichtung"
+
+#: includes/options/leadform_settings.php:376
+msgid "Center (Default)"
+msgstr "Mittig (Standard)"
+
+#: includes/options/leadform_settings.php:377
+msgid "Left"
+msgstr "Links"
+
+#: includes/options/leadform_settings.php:378
+msgid "Right"
+msgstr "Rechts"
+
+#: includes/options/leadform_settings.php:381
+msgid ""
+"(Optional) Adjust the title alignment. Default is center. The alignment does "
+"not affect widget title."
+msgstr ""
+"(Optional) Passen Sie die Titelausrichtung an. Standard ist Mitte. Die "
+"Ausrichtung hat keinen Einfluss auf den Widget-Titel."
+
+#: includes/options/leadform_settings.php:386
+msgid "Button Text"
+msgstr "Taste Text"
+
+#: includes/options/leadform_settings.php:388
+msgid "Default: Get My Free Quote"
+msgstr "Standart: Gratis Umzugsanfragen anfordern"
+
+#: includes/options/leadform_settings.php:390
+msgid ""
+"(Optional) Add the text that should be on the button or leave blank for "
+"default text, which is designed to convert best."
+msgstr ""
+"(Optional) Fügen Sie den Text hinzu, der auf der Taste angezeigt werden "
+"soll, oder lassen Sie den Standardtext, der am besten für die Konvertierung "
+"geeignet ist."
+
+#: includes/options/leadform_settings.php:395
+msgid "Button Color"
+msgstr "Taste Farbe"
+
+#: includes/options/leadform_settings.php:398
+msgid ""
+"(Optional) Add the color that should be on the button or click default, "
+"which is designed to convert best."
+msgstr ""
+"(Optional) Fügen Sie die Farbe hinzu, die auf der Taste angezeigt werden "
+"soll, oder klicken Sie auf die Standardoption, die am besten konvertiert "
+"werden soll."
+
+#: includes/options/leadform_settings.php:403
+msgid "Background"
+msgstr "Hintergrund"
+
+#: includes/options/leadform_settings.php:406
+msgid "Set the background of the form."
+msgstr "Legen Sie einen Hintergrund der Form fest."
+
+#: includes/options/leadform_settings.php:414
+msgid "Thank You Text"
+msgstr "Dankeschön-Text"
+
+#: includes/options/leadform_settings.php:416
+msgid "Default: Thank you. You will hear from us soon."
+msgstr "Standard: Vielen Dank! Schon bald melden wir uns bei Ihnen."
+
+#: includes/options/leadform_settings.php:418
+msgid ""
+"(Optional) Customize your Thank You message when the form is submitted or "
+"leave blank for default text."
+msgstr ""
+"(Optional) Passen Sie Ihre Dankeschön-Nachricht an, wenn die Form gesendet "
+"wird, oder lassen Sie den Standardtex."
+
+#: includes/options/leadform_settings.php:426
+msgid "Admin Box"
+msgstr "Admin-Box"
+
+#: includes/options/leadform_settings.php:429
+msgid "Disable the yellow admin box on top of the form."
+msgstr "Deaktivieren Sie das gelbe Admin-Feld oben in der Form."
+
+#: includes/options/leadform_settings.php:434
+msgid "Save Changes"
+msgstr "Änderungen Speichern"
+
+#: includes/options/leadform_settings.php:440
+msgid " How to Use the Form"
+msgstr "Wie man die Form benutzt"
+
+#: includes/options/leadform_settings.php:442
+msgid "Enter demo key"
+msgstr "Demo-Key eingeben"
+
+#: includes/options/leadform_settings.php:443
+msgid ""
+"To see and test how the form displays on your website, please do the "
+"following:"
+msgstr ""
+"Damit Sie sehen und testen können, wie die Form auf Ihre Website angezeigt "
+"wird, gehen Sie bitte folgendermaßen vor:"
+
+#: includes/options/leadform_settings.php:445
+msgid ""
+"Enter the demo API key (for testing purposes only). Simply copy this "
+"keyword: "
+msgstr ""
+"Geben Sie den Demo-API-Key ein (nur zu Testzwecken). Kopieren Sie einfach "
+"dieses Schlüsselwort:"
+
+#: includes/options/leadform_settings.php:446
+msgid ""
+" and paste it into the MoveAdvisor API key section in the \"General "
+"Settings\" tab."
+msgstr ""
+"und fügen Sie es in den MoveAdvisor-API-Schlüsselabschnitt in den "
+"\"Allgemeine Einstellungen\" ein."
+
+#: includes/options/leadform_settings.php:447
+msgid "After pasting, click the \"Save Changes\" button to commit changes."
+msgstr ""
+"Nach dem Einfügen klicken Sie auf die Taste \"Änderungen speichern\", um die "
+"Änderungen zu bestätigen."
+
+#: includes/options/leadform_settings.php:449
+msgid ""
+"Now you are <strong>ready to place the form on your website for testing "
+"purposes</strong>, it will not be submitting moving leads to our servers."
+msgstr ""
+"Jetzt sind Sie bereit, <strong>die Form zu Testzwecken auf Ihrer Website zu "
+"platzieren</strong>, es werden keine Umzugs-Leads zu unseren Servern "
+"gesendet."
+
+#: includes/options/leadform_settings.php:451
+msgid "Show the test form in your website"
+msgstr "Zeigen Sie die Testform auf Ihrer Website an"
+
+#: includes/options/leadform_settings.php:452
+msgid "There are 3 ways to include the form into your website."
+msgstr "Es gibt 3 Möglichkeiten, die Form auf Ihre Website aufzunehmen."
+
+#: includes/options/leadform_settings.php:453
+msgid "Place in a Page or Post"
+msgstr "Auf einer Seite oder einem Beitrag platzieren"
+
+#: includes/options/leadform_settings.php:454
+msgid "Show automatic form type based on location detection (recommended)"
+msgstr ""
+"Automatisches Form-Typ basierend auf der Standortbestimmung anzeigen "
+"(empfohlen)"
+
+#: includes/options/leadform_settings.php:455
+msgid ""
+"To have the form automatically show the right version of the form based on "
+"the user’s location, edit the page or post which should have the form and "
+"paste in this shortcode:"
+msgstr ""
+"Damit die Form automatisch die richtige Version der Form basierend auf dem "
+"Standort des Benutzers anzeigt, bearbeiten Sie die Seite oder den Beitrag, "
+"der die Form enthalten soll, und fügen Sie diese Shortcode ein:"
+
+#: includes/options/leadform_settings.php:457
+msgid "Show a specific type of form without location detection"
+msgstr "Zeigen Sie einen bestimmten Formtyp ohne Standortbestimmung an"
+
+#: includes/options/leadform_settings.php:458
+msgid ""
+"In rare cases, you might want to show a specific type of form without taking "
+"into account the user’s location, you can use the following shortcodes:"
+msgstr ""
+"In seltenen Fällen möchten Sie einen bestimmten Formtyp anzeigen, ohne den "
+"Standort des Benutzers zu berücksichtigen. Sie können die folgende Shortcode "
+"verwenden:"
+
+#: includes/options/leadform_settings.php:459
+msgid "US version of the form"
+msgstr "US-Variante der Form"
+
+#: includes/options/leadform_settings.php:461
+msgid "Canadian version of the form"
+msgstr "Kanadische Variante der Form"
+
+#: includes/options/leadform_settings.php:463
+msgid "Australian version of the form"
+msgstr "Australische Variante der Form"
+
+#: includes/options/leadform_settings.php:465
+msgid "UK’s version of the form"
+msgstr "Britische Variante der Form"
+
+#: includes/options/leadform_settings.php:467
+msgid "New Zealand version of the form"
+msgstr "Neuseeland Variante der Form"
+
+#: includes/options/leadform_settings.php:469
+msgid "German version of the form"
+msgstr "Deutsche Variante der Form"
+
+#: includes/options/leadform_settings.php:471
+msgid "International version of the form"
+msgstr "Internationale Variante der Form"
+
+#: includes/options/leadform_settings.php:474
+msgid "Place in the Sidebar"
+msgstr "In der Sidebar plazieren"
+
+#: includes/options/leadform_settings.php:475
+msgid ""
+"Click on Appearance > Widgets from the sidebar of this admin panel. You will "
+"find the widget called \"MoveAdvisor Lead Form\". Simply drag and drop it "
+"into your \"Sidebar\" section for the form to appear in your sidebar."
+msgstr ""
+"Klicken Sie in der Seitenleiste dieses Admin-Bereichs auf Darstellung> "
+"Widgets. Sie werden das Widget \"MoveAdvisor Lead Form\" finden. Ziehen "
+"Sie es einfach in den Bereich \"Sidebar\", damit die Form in Ihrer "
+"Seitenleiste angezeigt wird."
+
+#: includes/options/leadform_settings.php:478
+#, php-format
+msgid ""
+"<i><strong>Please note that you need a MoveAdvisor API key to have the "
+"form working on this website. To get one, please <a href=\"%s\" target="
+"\"_blank\">contact MoveAdvisor</a>.</strong></i>"
+msgstr ""
+"<i><strong>Bitte beachten Sie, dass Sie einen MoveAdvisor-API-Schlüssel "
+"benötigen, damit die Form auf dieser Website funktioniert. Um eine Form zu "
+"erhalten, <a href=\"%s\" target=\"_blank\">kontaktieren Sie bitte "
+"MoveAdvisor</a>.</strong></i>"
+
+#: includes/options/leadform_settings.php:480
+msgid "Inserting the form into a template file (for advanced users)"
+msgstr ""
+"Fügen die Form in eine Vorlagendatei ein (für fortgeschrittene Benutzer)"
+
+#: includes/options/leadform_settings.php:481
+msgid ""
+"To insert the form into a template file, use the following PHP in your file: "
+"do_shortcode(‘[mml_leadform]’)"
+msgstr ""
+"Verwenden Sie den folgenden PHP in Ihrer Datei, um die Form in einer "
+"Vorlagedatei einzufügen: do_shortcode(‘[mml_leadform]’)"
+
+#: includes/options/leadform_settings.php:482
+#, php-format
+msgid ""
+"<strong>Need help placing the form in your website? <a href=\"%s\" target="
+"\"_blank\">See more details</a></strong>"
+msgstr ""
+"<strong>Benötigen Sie Hilfe beim Platzieren der Form auf Ihrer Website? <a "
+"href=\"%s\" target=\"_blank\">Mehr Details sehen</a></strong>"
+
+#: includes/options/leadform_settings.php:484
+msgid "I've tested the form with the demo key and it looks great, now what?"
+msgstr ""
+"Ich habe die Form mit dem Demo-Schlüssel getestet und sie sieht gut aus, was "
+"nun?"
+
+#: includes/options/leadform_settings.php:485
+#, php-format
+msgid ""
+"Already integrated the form and ready to get leads? Please <a href=\"%s\" "
+"target=\"_blank\">contact us here</a> to get an official, valid API key to "
+"start receiving leads."
+msgstr ""
+"Die Form ist bereit integriert? Sie bekommen dann bald Umzugsanfragen. Bitte "
+"<a href=\"%s\" target=\"_blank\">kontaktieren Sie uns hier</a>, um einen "
+"offiziellen API-Schlüssel zu erhalten. Damit können Sie Umzugsanfragen "
+"erhalten."
+
+#: includes/options/leadform_settings.php:486
+msgid "Get an official MoveAdvisor API key"
+msgstr "Besorgen Sie sich einen offiziellen MoveAdvisor-API-Schlüssel."
+
+#: includes/options/leadform_settings.php:501
+msgid "Additional Info"
+msgstr "Zusätzliche Information"
+
+#: includes/options/leadform_settings.php:503
+msgid "Need help?"
+msgstr "Brauchen Sie Hilfe?"
+
+#: includes/options/leadform_settings.php:504
+#, php-format
+msgid ""
+"No worries, we've got you covered. Your question is probably answered in the "
+"<a href=\"%s\" target=\"_blank\">detailed plugin documentation</a>."
+msgstr ""
+"Keine Sorge, wir haben daran gedacht. Ihre Frage wird wahrscheinlich in der "
+"<a href=\"%s\" target=\"_blank\">detaillierten Plugin-Dokumentation</a> "
+"beantwortet."
+
+#: includes/options/leadform_settings.php:506
+msgid "See the leads you've generated"
+msgstr "Sehen Sie sich die Leads an, die Sie generiert haben"
+
+#: includes/options/leadform_settings.php:507
+#, php-format
+msgid ""
+"Now you can see all the leads you've generated in your own <a href=\"%s\" "
+"target=\"_blank\">MoveAdvisor administration panel here</a>."
+msgstr ""
+"Jetzt können Sie alle Leads sehen, die Sie generiert haben <a href=\"%s\" "
+"target=\"_blank\">MoveAdvisor Administration Panel hier</a>."
+
+#: includes/options/leadform_settings.php:508
+msgid "Login to MoveAdvisor Admin"
+msgstr "Login auf MoveAdvisor Admin"
+
+#: includes/options/leadform_settings.php:512
+msgid " Feedback &amp; Suggestions"
+msgstr "Feedback &amp; Vorschläge"
+
+#: includes/options/leadform_settings.php:513
+msgid ""
+"We would love to hear what you think about our plugin. Drop us a comment or "
+"send us an email to share your experience. Any feedback and suggestions are "
+"always appreciated."
+msgstr ""
+"Wir würden gerne hören, was Sie über unser Plugin denken. Schreiben Sie uns "
+"einen Kommentar oder senden Sie uns eine E-Mail, um Ihre Erfahrungen zu "
+"teilen. Rückmeldungen und Vorschläge werden immer geschätzt."
+
+#: includes/options/leadform_settings.php:514
+msgid "Leave us feedback"
+msgstr "Hinterlassen Sie Feedback"
+
+#: includes/shortcodes.php:201
+msgid "Thank you. You will hear from us soon."
+msgstr "Vielen Dank! Sie werden bald von uns hören."
+
+#: includes/shortcodes.php:207
+msgid "Get My Free Quote"
+msgstr "Jetzt kostenlos anfragen"
+
+#: includes/shortcodes.php:210
+msgid "Your information is 100% Secure."
+msgstr "Ihre Informrationen sind sicher geschützt."
+
+#: includes/shortcodes.php:264
+msgid "Wait!"
+msgstr "Bitte warten Sie!"
+
+#: includes/shortcodes.php:265
+msgid "an agent is calling you now from"
+msgstr "Ein Umzugsunternehmen ruft Ihnen an unter"
+
+#: includes/shortcodes.php:272
+msgid "Please pick up your phone to be connected with an agent to give you a personalized quote based on your move details."
+msgstr "Bitte kommen Sie in Kontakt mit dem Umzugsunternehmen, um ein personalisiertes auf Ihren Umzugsdetails basiertes Angebot zu erhalten."
+
+#: includes/widgets.php:23
+msgid "MoveAdvisor Lead Form"
+msgstr "MoveAdvisor Lead Form"
+
+#: includes/widgets.php:27
+msgid "MoveAdvisor Form"
+msgstr "MoveAdvisor Form"
+
+#: includes/widgets.php:28
+msgid "mml_leadform-widget"
+msgstr "mml_leadform-widget"
+
+#: includes/widgets.php:52
+msgid "Settings Page"
+msgstr "Einstellungen Seite"
+
+#~ msgid "Set preferred language."
+#~ msgstr "Lead-Form Sprache"
+
+#~ msgid "Your information is 100% secure."
+#~ msgstr "Ihre Informrationen sind sicher geschützt."

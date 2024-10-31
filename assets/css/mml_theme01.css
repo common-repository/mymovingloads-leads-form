@@ -1,0 +1,18 @@
+.mml_leadform_wrapper .float-label label,
+.mml_leadform_wrapper .float-label textarea + label,
+.mml_leadform_wrapper .mml_days_left_wrap,
+.mml_leadform_wrapper span.mml_from-city {
+	color: #039146;
+}
+.mml_leadform_wrapper .float-label input:hover,
+.mml_leadform_wrapper .float-label input:focus,
+.mml_leadform_wrapper .float-label select:hover,
+.mml_leadform_wrapper .float-label select:focus {
+	box-shadow: 0 0 5px 1px #039146; border: 1px solid #039146;
+}
+.mml_leadform_wrapper .dropdown-menu li a:hover,
+.mml_leadform_wrapper .dropdown-menu li.active a {
+    color: #fff;
+    background: #039146;
+    text-decoration: none !important;
+}
